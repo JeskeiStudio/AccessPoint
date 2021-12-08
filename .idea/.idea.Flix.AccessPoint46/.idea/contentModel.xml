@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.Rider2019.1/system/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.1/system/resharper-host/local/Transient/ReSharperHost/v191/SolutionCaches/_Flix.AccessPoint46.-1078589068.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="Core" t="IncludeRecursive">
+        <e p="Class1.cs" t="Include" />
+        <e p="Configuration" t="Include">
+          <e p="ConfigurationService.cs" t="Include" />
+          <e p="IConfigurationService.cs" t="Include" />
+        </e>
+        <e p="Core.csproj" t="IncludeRecursive" />
+        <e p="Extensions.cs" t="Include" />
+        <e p="Guard.cs" t="Include" />
+        <e p="HashHelper.cs" t="Include" />
+        <e p="LibLog.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="RetryHelper.cs" t="Include" />
+        <e p="SerialisationHelper.cs" t="Include" />
+        <e p="StringExtensions.cs" t="Include" />
+        <e p="UriEncodeHelper.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+      </e>
+      <e p="Flix.AccessPoint46" t="IncludeRecursive">
+        <e p="ApiHelperBase.cs" t="Include" />
+        <e p="ApiHelperBuilder.cs" t="Include" />
+        <e p="App.config" t="Include" />
+        <e p="AssetMonitor" t="Include">
+          <e p="AssetInfo.cs" t="Include" />
+          <e p="AssetMonitorApiHelper.cs" t="Include" />
+          <e p="AssetMonitorCoordinator.cs" t="Include" />
+        </e>
+        <e p="CommandCoordinatorBase.cs" t="Include" />
+        <e p="Commands" t="Include">
+          <e p="AccessPointSettingsNames.cs" t="Include" />
+          <e p="AssetMonitorCommand.cs" t="Include" />
+          <e p="ChecksumCommand.cs" t="Include" />
+          <e p="FolderMonitorCommand.cs" t="Include" />
+          <e p="IngestCommand.cs" t="Include" />
+          <e p="IngestSettingsNames.cs" t="Include" />
+          <e p="PulseCommand.cs" t="Include" />
+        </e>
+        <e p="Configuration" t="Include">
+          <e p="ConfigApiHelper.cs" t="Include" />
+          <e p="ConfigSetting.cs" t="Include" />
+          <e p="LocalConfigSettingHelper.cs" t="Include" />
+        </e>
+        <e p="Flix.AccessPoint46.csproj" t="IncludeRecursive" />
+        <e p="Ingest" t="Include">
+          <e p="DtoConverter.cs" t="Include" />
+          <e p="FileChecksumCoordinator.cs" t="Include" />
+          <e p="IFileChangeHandler.cs" t="Include" />
+          <e p="IFileChecksumRequestHandler.cs" t="Include" />
+          <e p="IFileLister.cs" t="Include" />
+          <e p="IngestApiHelper.cs" t="Include" />
+          <e p="IngestExtensions.cs" t="Include" />
+          <e p="Model" t="Include">
+            <e p="FileEntry.cs" t="Include" />
+            <e p="FileEntryChange.cs" t="Include" />
+            <e p="IngestDetail.cs" t="Include" />
+            <e p="IngestFileInfoDto.cs" t="Include" />
+          </e>
+          <e p="Monitor" t="Include">
+            <e p="ConsoleFileChangeHandler.cs" t="Include" />
+            <e p="Enumerations.cs" t="Include" />
+            <e p="FileChangeEventArgs.cs" t="Include" />
+            <e p="FileEntryByHashIdEqualityComparer.cs" t="Include" />
+            <e p="FileEntryByPropertiesEqualityComparer.cs" t="Include" />
+            <e p="FileEntryManager.cs" t="Include" />
+            <e p="FolderFileLister.cs" t="Include" />
+            <e p="FolderMonitor.cs" t="Include" />
+            <e p="FolderSyncCoordinator.cs" t="Include" />
+            <e p="IngestApiFileChangeHandler.cs" t="Include" />
+          </e>
+          <e p="Upload" t="Include">
+            <e p="AzureBlobUpload.cs" t="Include" />
+            <e p="BlobStat.cs" t="Include" />
+            <e p="BlockMetadata.cs" t="Include" />
+            <e p="BlockStat.cs" t="Include" />
+            <e p="FileUploadCoordinator.cs" t="Include" />
+            <e p="IngestStatistics.cs" t="Include" />
+            <e p="StateHelper.cs" t="Include" />
+            <e p="TimeBlock.cs" t="Include" />
+            <e p="TransferStat.cs" t="Include" />
+            <e p="UploadConstants.cs" t="Include" />
+            <e p="UploadState.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Pulse" t="Include">
+          <e p="PulseApiHelper.cs" t="Include" />
+          <e p="PulseCoordinator.cs" t="Include" />
+          <e p="PulseExtensions.cs" t="Include" />
+        </e>
+        <e p="Security" t="Include">
+          <e p="ApiScopes.cs" t="Include" />
+          <e p="FlixAuthHeaderBuilder.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+      </e>
+      <e p="Flix.AccessPoint46.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
