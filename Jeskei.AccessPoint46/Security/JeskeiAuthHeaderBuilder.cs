@@ -119,7 +119,7 @@ namespace Jeskei.AccessPoint.Modules
             var clientId = config.ReadConfigurationItem<string>(AccessPointSettingsNames.AccessPointId);
             var secret = config.ReadConfigurationItem<string>(AccessPointSettingsNames.AccessPointSecret);
 
-            return newJeskeiAuthHeaderBuilder(authUri, clientId, secret, scope, config);
+            return new JeskeiAuthHeaderBuilder(authUri, clientId, secret, scope, config);
         }
 
         #endregion
